@@ -47,7 +47,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Liam O\Documents\Arduino\libraries\uGUI;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\utility;C:\Users\Liam O\Documents\Arduino\libraries\uGUI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;C:\Users\Liam O\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\utils;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy/../tools/arm/bin/..\arm-none-eabi\include;C:\Users\Liam O\Documents\Arduino\uGUITest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\utility;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;C:\Users\Liam O\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\utils;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy/../tools/arm/bin/..\arm-none-eabi\include;C:\Users\Liam O\Documents\Arduino\uGUITest;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI;E:\VS2015\Common7\IDE\Extensions\z5mnao3m.dfb\Micro Platforms\default\debuggers\VM_DBG;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;E:\VS2015\Common7\IDE\Extensions\z5mnao3m.dfb\Micro Platforms\default\debuggers;C:\Users\Liam O\Documents\Arduino\libraries;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>C:\Users\Liam O\Documents\Arduino\uGUITest\__vm\.uGUITest.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
       <PreprocessorDefinitions>__HARDWARE_MK64fx512__;__HARDWARE_MK64FX512__;_VMDEBUG=1;__MK64FX512__;TEENSYDUINO=131;ARDUINO=106012;F_CPU=120000000;USB_SERIAL;LAYOUT_US_ENGLISH;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -154,6 +154,8 @@
     <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\SPI.h" />
     <ClInclude Include="..\libraries\uGUI\ugui.h" />
     <ClInclude Include="..\libraries\uGUI\ugui_config.h" />
+    <ClInclude Include="ugui.h" />
+    <ClInclude Include="ugui_config.h" />
     <ClInclude Include="__vm\.AnotheruGUITest.vsarduino.h" />
     <ClInclude Include="__vm\.uGUITest.vsarduino.h" />
   </ItemGroup>
@@ -214,6 +216,7 @@
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\ILI9341_t3.cpp" />
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\SPI.cpp" />
     <ClCompile Include="..\libraries\uGUI\ugui.c" />
+    <ClCompile Include="ugui.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\keywords.txt" />

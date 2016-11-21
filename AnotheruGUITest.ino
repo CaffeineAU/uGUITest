@@ -1,10 +1,10 @@
-#include <ugui_config.h>
+#include "ugui_config.h"
 #include <ILI9341_t3.h>
 #include <font_ArialBold.h>
 #include <font_Arial.h>
 
 extern "C" {
-#include <ugui.h>
+#include "ugui.h"
 };
 
 #define TFT_RST 8

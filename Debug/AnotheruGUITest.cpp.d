@@ -36,12 +36,11 @@ C:\Users\Liam\ O\AppData\Local\Temp\VMicroBuilds\AnotheruGUITest\teensy35\Anothe
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/elapsedMillis.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/IntervalTimer.h \
- C:\Users\Liam\ O\Documents\Arduino\libraries\uGUI/ugui_config.h \
+ C:\Users\Liam\ O\AppData\Local\Temp\VMicroBuilds\AnotheruGUITest\teensy35\ugui_config.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/ILI9341_t3.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\cores\teensy3/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/font_ArialBold.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/ILI9341_t3.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/font_Arial.h \
  E:\VS2015\Common7\IDE\Extensions\z5mnao3m.dfb\Micro\ Platforms\default\debuggers\VM_DBG/VM_DBG.h \
- C:\Users\Liam\ O\Documents\Arduino\libraries\uGUI/ugui.h \
- C:\Users\Liam\ O\Documents\Arduino\libraries\uGUI/ugui_config.h
+ C:\Users\Liam\ O\AppData\Local\Temp\VMicroBuilds\AnotheruGUITest\teensy35\ugui.h

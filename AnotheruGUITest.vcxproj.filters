@@ -276,6 +276,12 @@
     <ClInclude Include="__vm\.uGUITest.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ugui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ugui_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\analog.c">
@@ -445,6 +451,9 @@
     </ClCompile>
     <ClCompile Include="..\libraries\uGUI\ugui.c">
       <Filter>src\_micro-api-readonly\libraries\uGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ugui.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
