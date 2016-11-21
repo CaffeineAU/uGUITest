@@ -12,7 +12,6 @@
 #define _VSARDUINO_H_
 #define __HARDWARE_MK64fx512__
 #define __HARDWARE_MK64FX512__
-#define _VMDEBUG 1
 #define __MK64FX512__
 #define TEENSYDUINO 131
 #define ARDUINO 106012

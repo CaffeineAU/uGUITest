@@ -28,13 +28,17 @@ void setup()
 {
 
   /* add setup code here */
-	UG_Init(&gui, UserPixelSetFunction, 320, 240);
+	UG_Init(&gui, UserPixelSetFunction, 240, 320);
 	tft.begin();
 	tft.fillScreen(ILI9341_BLACK);
 
+	//UG_FillCircle(120, 160, 50, C_YELLOW_GREEN);
+	//UG_FillCircle(120, 160, 45, C_CADET_BLUE);
+	//UG_FontSelect(&FONT_12X20);
+	//UG_PutString(10, 10, "hello");
 
-	Serial.begin(9600);
 	UG_WINDOW window1;
+
 	UG_BUTTON button1;
 	UG_BUTTON button2;
 	UG_BUTTON button3;
@@ -44,36 +48,38 @@ void setup()
 
 	UG_WindowCreate(&window1, objbuffwnd1, MAX_OBJECTS, window1callback);
 
-	//UG_WindowSetTitleText(&window1, "uGUI Demo Window");
-	//UG_WindowSetTitleTextFont(&window1, &FONT_12X20);
+	UG_WindowSetTitleText(&window1, "uGUI Demo Window");
+	UG_WindowSetTitleTextFont(&window1, &FONT_12X20);
 
 	//UG_ButtonCreate(&window1, &button1, BTN_ID_0, 10, 10, 110, 60);
 	//UG_ButtonCreate(&window1, &button2, BTN_ID_1, 10, 80, 110, 130);
 	//UG_ButtonCreate(&window1, &button3, BTN_ID_2, 10, 150, 110, 200);
 	//UG_ButtonSetFont(&window1, BTN_ID_0, &FONT_12X20);
+	//UG_ButtonSetForeColor(&window1, BTN_ID_0, C_WHITE_SMOKE);
 	//UG_ButtonSetText(&window1, BTN_ID_0, "Button A");
 	//UG_ButtonSetFont(&window1, BTN_ID_1, &FONT_12X20);
 	//UG_ButtonSetText(&window1, BTN_ID_1, "Button B");
 	//UG_ButtonSetFont(&window1, BTN_ID_2, &FONT_12X20);
 	//UG_ButtonSetText(&window1, BTN_ID_2, "Button C");
-	//UG_TextboxCreate(&window1, &textbox1, TXB_ID_0, 120, 10, 310, 200);
-	//UG_TextboxSetFont(&window1, TXB_ID_0, &FONT_12X20);
-	//UG_TextboxSetText(&window1, TXB_ID_0, "Test");
-	//UG_TextboxSetForeColor(&window1, TXB_ID_0, C_GOLDEN_ROD);
-	//UG_TextboxSetAlignment(&window1, TXB_ID_0, ALIGN_CENTER);
+	UG_TextboxCreate(&window1, &textbox1, TXB_ID_0, 120, 10, 240, 200);
+	UG_TextboxSetFont(&window1, TXB_ID_0, &FONT_12X20);
+	UG_TextboxSetText(&window1, TXB_ID_0, "Test");
+	UG_TextboxSetForeColor(&window1, TXB_ID_0, C_BLACK);
+	UG_TextboxSetBackColor(&window1, TXB_ID_0, C_ANTIQUE_WHITE);
+	UG_TextboxSetAlignment(&window1, TXB_ID_0, ALIGN_CENTER);
 
-	Serial.println("Show window");
-	Serial.println(UG_WindowShow(&window1));
-	Serial.println("Height");
-	Serial.println(UG_WindowGetTitleHeight(&window1));
+	UG_WindowShow(&window1);
+	//Serial.println("Height");
+	//Serial.println(UG_WindowGetTitleHeight(&window1));
 
-	//UG_FillCircle(120, 160, 50, C_YELLOW_GREEN);	//UG_FillCircle(120, 160, 45, C_CADET_BLUE);
+
+
 }
 
 
 void loop()
 {
-
+	UG_Update();
 }
 
 void window1callback(UG_MESSAGE* msg)

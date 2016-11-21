@@ -42,5 +42,4 @@ C:\Users\liamo\AppData\Local\Temp\VMicroBuilds\AnotheruGUITest\teensy35\Anotheru
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/font_ArialBold.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/ILI9341_t3.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3/font_Arial.h \
- C:\Program\ Files\ (x86)\Microsoft\ Visual\ Studio\ 14.0\Common7\IDE\Extensions\nhtfrqrj.2rs\Micro\ Platforms\default\debuggers\VM_DBG/VM_DBG.h \
  C:\Users\liamo\AppData\Local\Temp\VMicroBuilds\AnotheruGUITest\teensy35\ugui.h
