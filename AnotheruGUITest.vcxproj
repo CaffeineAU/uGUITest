@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <ProjectName>AnotheruGUITest</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Liam O\Documents\Arduino\libraries\uGUI;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\utility;C:\Users\Liam O\Documents\Arduino\libraries\uGUI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\libraries;C:\Users\Liam O\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\utils;C:\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr;C:\Program Files (x86)\Arduino\hardware\teensy/../tools/arm/bin/..\arm-none-eabi\include;C:\Users\Liam O\Documents\Arduino\uGUITest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\Liam O\Documents\Arduino\uGUITest\__vm\.uGUITest.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__HARDWARE_MK64fx512__;__HARDWARE_MK64FX512__;_VMDEBUG=1;__MK64FX512__;TEENSYDUINO=131;ARDUINO=106012;F_CPU=120000000;USB_SERIAL;LAYOUT_US_ENGLISH;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memcpy-armv7m.S" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\memset.S" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\library.json" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\library.properties" />
+    <None Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\library.properties" />
+    <None Include="AnotheruGUITest.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Arduino.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\arm_common_tables.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\arm_math.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\AudioStream.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\eeprom.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\interrupt.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\io.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\pgmspace.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\power.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\sleep.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr\wdt.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr_emulation.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr_functions.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\binary.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Client.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\core_cm4.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\core_cm4_simd.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\core_cmInstr.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\core_id.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\core_pins.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\DMAChannel.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\elapsedMillis.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\IntervalTimer.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\IPAddress.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\keylayouts.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\kinetis.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\math_helper.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\mk20dx128.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\new.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\pins_arduino.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Print.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Printable.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Server.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\ser_print.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\SPIFIFO.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Stream.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Udp.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_audio.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_desc.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_dev.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_flightsim.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_joystick.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_keyboard.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mem.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_midi.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mouse.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mtp.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_names.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_rawhid.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_seremu.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_serial.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_touch.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_undef.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util\atomic.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util\crc16.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util\delay.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\util\parity.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WCharacter.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WConstants.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\wiring.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\wiring_private.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WProgram.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WString.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\font_Arial.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\font_ArialBold.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\ILI9341_t3.h" />
+    <ClInclude Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\SPI.h" />
+    <ClInclude Include="..\libraries\uGUI\ugui.h" />
+    <ClInclude Include="..\libraries\uGUI\ugui_config.h" />
+    <ClInclude Include="__vm\.AnotheruGUITest.vsarduino.h" />
+    <ClInclude Include="__vm\.uGUITest.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\analog.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\AudioStream.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\avr_emulation.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\DMAChannel.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\eeprom.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial1.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial2.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial3.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial4.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial5.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\HardwareSerial6.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\IntervalTimer.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\IPAddress.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\keylayouts.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\math_helper.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\mk20dx128.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\new.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\nonstd.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\pins_teensy.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Print.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial1.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial2.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial3.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial4.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial5.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial6.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\serial6_lpuart.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\ser_print.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Stream.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\Tone.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\touch.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_audio.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_desc.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_dev.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_flightsim.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_inst.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_joystick.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_keyboard.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mem.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_midi.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mouse.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_mtp.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_rawhid.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_seremu.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_serial.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\usb_touch.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WMath.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\WString.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\cores\teensy3\yield.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\font_Arial.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\font_ArialBold.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\glcdfont.c" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\ILI9341_t3.cpp" />
+    <ClCompile Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\SPI.cpp" />
+    <ClCompile Include="..\libraries\uGUI\ugui.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\keywords.txt" />
+    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\ILI9341_t3\README.txt" />
+    <Text Include="..\..\..\..\..\Program Files (x86)\Arduino\hardware\teensy\avr\libraries\SPI\keywords.txt" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties arduino.upload.port="COM6" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
